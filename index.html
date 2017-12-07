@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ege Üniversitesi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>EGE ÜNİVERSİTESİ<br>BİLGİSAYAR MÜHENDİSLİĞİ<br>BÖLÜMÜ</h1></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li>
+              <a href="http://bilmuh.ege.edu.tr/" target="_blank">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Hakkımızda</a>
+            </li>
+            <li>
+              <a href="personel_category.html">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Personel</a>
+            </li>
+            <li>
+              <a href="table.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Eğitim</a>
+            </li>
+            
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+ 
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="images/bilmuh768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12" >
+        <a href="data/personel.json"><div id="menu-tile"><span>Personel</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="table.html"><div id="specials-tile"><span>Eğitim</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/8cdDf3osahT2" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.2845018574076!2d27.211215314870675!3d38.457992680330264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b97d2edf7e8e55%3A0x5fcc67a77466c8f3!2zRWdlIMOcbml2ZXJzaXRlc2kgQmlsZ2lzYXlhciBNw7xoZW5kaXNsacSfaSBCw7Zsw7xtw7w!5e0!3m2!1str!2str!4v1512476253366" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <span>map</span>
+          </div>
+        </a>
+      </div>
+    </div><!-- End of #home-tiles -->
+  </div><!-- End of #main-content -->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-3">
+          <span>Yararlı Linkler</span><br>
+          <a class="glyphicon glyphicon-home" href="http://www.ege.edu.tr/eng-0/homepage.html#tab-1" target="_blank" title="Ege Üniversitesi"></a> <br>
+          <a class="glyphicon glyphicon-envelope" href="https://posta.ege.edu.tr/" target="_blank" title="Ege Posta"></a> <br>
+          <a class="glyphicon glyphicon-bullhorn" href="http://bilmuh.ege.edu.tr/" target="_blank" title="Ege Duyuru"></a> <br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-3">
+          <span>Adres</span><br>
+              Kazımdirik Mahallesi<br>
+              Bornova Metro İstasyonu Karşısı<br>
+              35100 Bornova / İZMİR<br>
+          
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-3">
+          <span>İletişim</span><br>
+              Telefon<br>
+              +90 232 388 72 21<br>
+
+              Faks<br>
+              +90 232 339 94 05<br>
+
+              E-Posta<br>
+              <a href="mailto:bilmuh@mail.ege.edu.tr">bilmuh@mail.ege.edu.tr</a>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-3">
+          <span>Sosyal Medya</span><br>s
+          <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img src="images/share.png">
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="https://www.facebook.com/groups/483074065194737/?fref=ts" target="_blank" title="facebook"><img src="images/facebook.png"></a></li>
+    <li> <a href="https://twitter.com/UniversiteEge" target="_blank" title="twitter"><img src="images/twitter.png"></a></li>
+    <li><a href="https://www.youtube.com/user/egeuniversitesitv" target="_blank" title="youtube"><img src="images/youtube.png"></a></li>
+    <li><a href="https://www.linkedin.com/groups/3662507/profile" target="_blank" title="linkedin"><img src="images/linkedin.png"></a></li>
+  </ul>
+</div>
+        </section>
+      </div>
+      <div class="text-center">&copy; Ege Üniversitesi Bilgisayar Mühendisliği</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
